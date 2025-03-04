@@ -1,0 +1,50 @@
+body{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    margin: 0 ;
+    height: 500px;
+    background-color: #f0f0f0 ;
+}
+
+.banner-container{
+    position: relative ;
+    max-width: 800px ;
+}
+
+.banner-slide{
+    display: flex ;
+    transition: display 1.5s ease-in-out;
+}
+
+.banner-slide img {
+    width: 100% ;
+    border: 2px solid #ddd;
+}
+
+button{
+    cursor: pointer ;
+    color: white ;
+    position: absolute ;
+    top: 50% ;
+    transform: translate(0 , -50% );
+    padding: 16px ;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+    z-index: 1000 ;
+}
+
+#prev{
+    left: 10px ;
+}
+
+#next{
+    right: 10px;
+}
+
+section{
+    justify-content: center ;
+    align-items: center ;
+    background-color: #fff ;
+}

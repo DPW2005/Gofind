@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Gestionnaire des Colocation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header></header>
+        <form method="post" action="co_location">
+            <select name="operation">
+                <option>AJOUTER</option>
+                <option>MODIFIER</option>
+                <option>SUPPRIMER</option>
+            </select>
+            <input type="text" placeholder="Entrer l'id du domicile" name="id" required />
+            <input type="text" placeholder="Entrer la localite" name="localite" required />
+            <input type="text" placeholder="Entrer le prix du domicile" name="prix" required />
+            <select name="type">
+                <option>CHAMBRE</option>
+                <option>STUDIO</option>
+                <option>MAISON</option>
+            </select>
+            <input type="text" placeholder="Entrer le proprio" name="proprio" required />
+            <input type="submit" value="Envoyer"/>
+        </form>
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body{
+    margin: 0 ;
+    font-family: comic sans ms ;
+    background-color: #f4f4f4;
+}
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    position: absolute;
+    bottom: -75%;
+    width: 98vw;
+}
+
+.footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h3{
+    margin-top: 0;
+}
+
+.footer-section ul{
+    list-style: none ;
+    padding: 0;
+}
+
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+p i{
+    margin-right: 5px;
+}
+
+.footer-section ul li a:hover{
+    color: #e8491d;
+}
+
+.social-icons{
+    display: flex;
+}
+
+.social-icons a{
+    margin-right: 10px;
+}
+
+.social-icons i{
+    width: 24px;
+    height: 24px;
+    transition: all0.3s ease;
+}
+
+.social-icons i:hover{
+    transform: scale(1.2);
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
+
+.footer-bottom p{
+    margin: 0;
+}
